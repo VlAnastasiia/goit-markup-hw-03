@@ -184,6 +184,8 @@ body {
   padding: 0;
 }
 .features .title {
+  font-size: 14px;
+  text-transform: uppercase;
   margin: 0;
   line-height: 1.14;
   color: var(--title-text-color);
