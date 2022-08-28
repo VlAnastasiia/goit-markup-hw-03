@@ -211,6 +211,10 @@ body {
   line-height: 1.14;
   color: var(--title-text-color);
 }
+.features .features-item
+{
+  width: 270px;
+}
 
 .features .text {
   margin: 0;
@@ -220,6 +224,7 @@ body {
 
 .features-item+.features-item
 {
+
   margin-left: 30px;
 }
 
@@ -401,13 +406,6 @@ body {
 }
 
 /* Filter`s text style */
-.images-container
-{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .list-portfolio
 {
   display: flex;
@@ -415,6 +413,13 @@ body {
   padding: 0;
   margin: 0;
   margin-top: 50px;
+}
+.text-img
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .list-img{
   width: 370px;
@@ -431,6 +436,7 @@ body {
   margin-bottom: 0;
 }
 .list-portfolio .title {
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
